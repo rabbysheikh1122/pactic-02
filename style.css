@@ -65,3 +65,17 @@ nav ul li a:hover{
 .home-img img{
     margin-top: 60px;
 }
+
+
+/* media section */
+.media-contant{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    gap:30px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    padding: 15px;
+    border-top:1px solid gray ;
+    border-bottom: 1px solid gray;
+}
