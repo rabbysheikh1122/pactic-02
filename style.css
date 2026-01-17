@@ -42,7 +42,7 @@ nav ul li a:hover{
     justify-content: space-between;
 }
 .home-text h1{
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 .home-text p{
     margin-top: 10px;
@@ -78,4 +78,126 @@ nav ul li a:hover{
     padding: 15px;
     border-top:1px solid gray ;
     border-bottom: 1px solid gray;
+}
+
+/*popular card section */
+
+.popular-header{
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.popular-card-section{
+    width: 88%;
+    margin: 0 auto;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.card{
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #00000012;
+}
+.card img{
+    border-radius: 10px;
+    width: 240px;
+}
+.card h2{
+    font-size: 23px;
+    margin-top: 7px;
+}
+.card h3{
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+.card p{
+    font-weight: 550;
+    line-height: 20px;
+    margin-top: 5px;
+    font-size: 15px;
+    color: gray;
+}
+.card p i{
+    font-size: 12px;
+    color: rgb(255, 166, 0);
+    letter-spacing: 2px;
+}
+.btn-1{
+    color: deeppink;
+    border: none;
+    font-size: 1rem;
+    margin-left: 83%;
+    background-color: white;
+}
+/*  Featured products section*/
+.featured-container{
+    margin-bottom: 60px;
+}
+.featured-img img{
+    border-radius:15px;
+    height: 200px;
+    width: 350px;
+}
+.eatured-text h1{
+    font-size: 2.5rem;
+}
+.eatured-text p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.btn-2{
+    background-color: deeppink;
+    border: none;
+    margin-top: 1rem;
+    color: white;
+    font-size: 1rem;
+    padding: 7px 10px;
+    transition: .3s ease-in;
+}
+.btn-2:hover{
+    color: black;
+}
+.featured-container{
+    margin-top: 5rem;
+    gap: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* footer section */
+.footer-section{
+    margin-top: 20px;
+    background: #000000e8;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.footer-section h1{
+    color: white;
+    font-size: 1.8rem;
+    margin-top: 10px;
+}
+.footer-section p{
+    color: white;
+    font-size:1rem ;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+.footer-section h3{
+    color: white;
+    font-size:1rem;
+    margin-top: 3px;
+    letter-spacing: 1px;
+}
+
+.footer-section a{
+    font-size: 1.3rem;
+    border-radius: 50%;
+    text-align: center;
+    background-color: bisque;
+    padding: 6px 6px ;
+    margin: 0 7px;
 }
